@@ -1,6 +1,6 @@
 import streamlit as st
 from scipy.stats import binom
-
+# Mudança teste
 # Função que encontra o plano amostral com base nos inputs fornecidos
 def encontrar_plano_amostral(TAMANHO_LOTE, NQA, PTDL, RISCO_FORNECEDOR_MAX, RISCO_CONSUMIDOR_MAX):
     progresso = st.progress(0)  # Barra de progresso
